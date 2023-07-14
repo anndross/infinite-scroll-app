@@ -1,6 +1,8 @@
 # infinite-scroll-app
 
-This is an infinite scroll app consuming the backend with graphql, here you can see the images from the nasa api, astronomical photos of the day. You can see more about [here](https://api.nasa.gov/)
+This is an infinite scroll app consuming the backend with graphql, here you can see the images from the nasa api, astronomical photos of the day. You can see more about [here](https://api.nasa.gov/).
+##
+![image](https://github.com/anndross/infinite-scroll-app/assets/132636167/d2340636-6ae9-455a-a060-378783debcff)
 
 ### Features
 
@@ -16,7 +18,7 @@ This is an infinite scroll app consuming the backend with graphql, here you can 
 
 ### Start
 
-To obtain the infinite-scroll-app source codes and the dependent modules, run the git-command in your projects folder:
+To obtain the infinite-scroll-app source codes and the dependent modules you need to run the [infinite scroll backend](https://github.com/anndross/infinite-scroll-api#readme), after this run the git-command in your projects folder:
 
 ```
     git clone git@github.com:anndross/infinite-scroll-app.git
