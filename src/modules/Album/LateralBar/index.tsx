@@ -55,7 +55,7 @@ export const LateralCard = () => {
     <S.Container>
       {apods.map(apod => {
         return (
-          <Card data={apod} />
+          <Card key={apod.id} data={apod} />
         )
       })}
       <div id='sentinel' />

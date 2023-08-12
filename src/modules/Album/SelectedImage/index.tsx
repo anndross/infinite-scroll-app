@@ -12,7 +12,7 @@ export const SelectedImage = () => {
         {data?.title}
       </Text>
       <S.Content>
-        <Image style={{ borderRadius: '6px', cursor: 'default', width: '100%' }} src={data?.url} />
+        <Image alt='astronomic image' style={{ borderRadius: '6px', cursor: 'default', width: '100%' }} src={data?.url} />
         <Text style={{ fontSize: 'max(16px, 1.1vw)', textAlign: 'left', lineHeight: '1.5rem', letterSpacing: '2px' }}>{data?.explanation}</Text>
       </S.Content>
     </S.Container >
