@@ -1,8 +1,11 @@
-# infinite-scroll-app
+# nasa-pic-of-the-day-app
 
-This is an infinite scroll app consuming the backend with graphql, here you can see the images from the nasa api, astronomical photos of the day. You can see more about [here](https://api.nasa.gov/).
+This is an nasa-pic-of-the-day-app consuming the backend with graphql, here you can see the images from the nasa api, astronomical photos of the day. You can see the website [here](https://nasa-pic-of-the-day-app.vercel.app/).
 ##
 ![image](https://github.com/anndross/infinite-scroll-app/assets/132636167/d2340636-6ae9-455a-a060-378783debcff)
+![image](https://github.com/anndross/nasa-pic-of-the-day-app/assets/132636167/dc403e37-7e53-4a14-8515-3934f73daafe)
+![image](https://github.com/anndross/nasa-pic-of-the-day-app/assets/132636167/98f37ea2-dea3-49ab-9ba0-973d6e978b3c)
+
 
 ### Features
 
@@ -18,10 +21,10 @@ This is an infinite scroll app consuming the backend with graphql, here you can 
 
 ### Start
 
-To obtain the infinite-scroll-app source codes and the dependent modules you need to run the [infinite scroll backend](https://github.com/anndross/infinite-scroll-api#readme), after this run the git-command in your projects folder:
+To obtain the nasa-pic-of-the-day-app source codes and the dependent modules you need to run the [nasa-pic-of-the-day backend](https://github.com/anndross/nasa-pic-of-the-day-api#readme), after this run the git-command in your projects folder:
 
 ```
-    git clone git@github.com:anndross/infinite-scroll-app.git
+    git clone git@github.com:anndross/nasa-pic-of-the-day-app.git
 ```
 
 Then you need to install the dependencies, run:
