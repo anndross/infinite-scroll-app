@@ -6,6 +6,7 @@ import { format, subDays } from 'date-fns'
 import { Context } from '../context'
 import { Image } from '@/components/Image'
 import { Text } from '@/components/Text'
+import { Card } from './Card'
 
 export const LateralCard = () => {
   const { setData, data: contextData } = useContext(Context)
@@ -54,23 +55,7 @@ export const LateralCard = () => {
     <S.Container>
       {apods.map(apod => {
         return (
-          <div
-            key={apod.date}
-            style={{
-              display: 'flex',
-              flexDirection: 'column'
-            }}>
-            <Text style={{ color: '#c9c9c9', fontSize: '13px', margin: '10px 0' }}>Name: {apod.title}</Text>
-            <Text style={{ color: '#c9c9c9', fontSize: '13px', marginBottom: '20px' }}>Date: {apod.date}</Text>
-            <Image
-              onClick={() => {
-                setData(apod)
-              }}
-              src={apod.url}
-              key={apod.id}
-              alt={apod.title}
-            />
-          </div>
+          <Card data={apod} />
         )
       })}
       <div id='sentinel' />

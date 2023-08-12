@@ -6,7 +6,7 @@ export const Container = styled.div`
   width:  400px;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 4rem;
   padding: 20px;
   background-color: ${(props) => props.theme.colors.background500};
   height: 100vh;
@@ -26,5 +26,28 @@ export const Container = styled.div`
 
   ::-webkit-scrollbar-thumb:hover {
     background: #444;
+  }
+  @media (max-width: 600px) {
+    width:  100%;
+  }
+`
+
+export const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  .explanation {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 100px;
+    overflow: hidden;
+  }
+  @media (min-width: 600px) {
+    .explanation {
+      display: none;
+    }
+
+    .readMore {
+      display: none;
+    }
   }
 `

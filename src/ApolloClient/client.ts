@@ -1,7 +1,7 @@
 import { ApolloClient, ApolloLink, HttpLink, InMemoryCache } from "@apollo/client";
 
 const httpLink = new HttpLink({
-  uri: "https://nasa-apod-backend-deploy.onrender.com/graphql",
+  uri: process.env.NEXT_PUBLIC_API_URL,
 });
 
 export const client = new ApolloClient({

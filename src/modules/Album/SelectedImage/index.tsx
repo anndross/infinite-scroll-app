@@ -8,13 +8,12 @@ export const SelectedImage = () => {
   const { data } = useContext(Context)
   return (
     <S.Container>
-      <Text style={{ fontSize: '30px', color: '#2c4566', fontWeight: '500', marginTop: '20px' }}>
+      <Text style={{ fontSize: 'max(18px, 2vw)', color: '#2c4566', fontWeight: '500', marginTop: '20px' }}>
         {data?.title}
       </Text>
       <S.Content>
         <Image style={{ borderRadius: '6px', cursor: 'default', width: '100%' }} src={data?.url} />
-        <Text style={{ textAlign: 'left' }}>{data?.explanation}</Text>
-        <Text style={{ textAlign: 'left' }}>{data?.copyright}</Text>
+        <Text style={{ fontSize: 'max(16px, 1.1vw)', textAlign: 'left', lineHeight: '1.5rem', letterSpacing: '2px' }}>{data?.explanation}</Text>
       </S.Content>
     </S.Container >
   )

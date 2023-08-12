@@ -9,6 +9,10 @@ export const Container = styled.div`
   flex-direction: column;
   background-color: ${(props) => props.theme.colors.background100};
   padding: 10px;
+  @media (max-width: 600px) {
+    display: none;
+
+  }
 `
 export const Content = styled.div`
   margin-top: 20px;
@@ -16,4 +20,14 @@ export const Content = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   width: 70%;
+  @media (max-width: 1300px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  width: 60%;
+  }
+  @media (max-width: 790px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  width: 80%;
+  }
 `
